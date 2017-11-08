@@ -1,0 +1,36 @@
+{
+		"testSuiteDescription": "DrySelMagic Demo : Login.",
+		"setupList": 
+		[
+			{
+				"number": 1,
+				"description": "Opening Awesome App!",
+				"uiFilePath": "applauncher/ui/webBrowser_ui.json",
+				"dataFilePath": "applauncher/input/webBrowser_in.json"
+			}
+		],
+		"testList":
+		[
+			{
+				"scenario": "Login Successful",
+				"whenList": 
+				[
+					{
+						"number": 1,
+						"description": "When user logs in with correct user name and password",
+						"uiFilePath": "login/ui/loginPage_ui.json",
+						"dataFilePath": "login/input/loginPage_in.json"
+					}
+				],
+				"thenList": 
+				[
+					{
+						"number": 1,
+						"description": "Then user information page should be displayed",
+						"uiFilePath": "userinfo/ui/userInfoHeader_ui.json",
+						"dataFilePath": "login/output/loginPage_out.json"
+					}
+				]
+			}
+		]
+}

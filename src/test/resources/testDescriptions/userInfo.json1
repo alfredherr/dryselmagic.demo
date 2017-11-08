@@ -1,0 +1,42 @@
+{
+		"testSuiteDescription": "DrySelMagic Demo : User Information.",
+		"setupList": 
+		[
+			{
+				"number": 1,
+				"description": "Opening Awesome App!",
+				"uiFilePath": "applauncher/ui/webBrowser_ui.json",
+				"dataFilePath": "applauncher/input/webBrowser_in.json"
+			}
+		],
+		"testList":
+		[
+			{
+				"scenario": "Login Successful",
+				"givenList": 
+				[
+					{
+						"number": 1,
+						"description": "Given Joe has logged in.",
+						"uiFilePath": "login/ui/loginPage_ui.json",
+						"dataFilePath": "login/input/loginPage_in.json"
+					},
+					{
+						"number": 2,
+						"description": "Given enters his user information,",
+						"uiFilePath": "userinfo/ui/userInfoPage_ui.json",
+						"dataFilePath": "userinfo/input/userInfoPage_in.json"
+					}
+				],
+				"thenList": 
+				[
+					{
+						"number": 1,
+						"description": "Then Joe's information should be displayed in the info-pan",
+						"uiFilePath": "userinfo/ui/userInfoPage_ui.json",
+						"dataFilePath": "userinfo/output/userInfoPage_out.json"
+					}
+				]
+			}
+		]
+}
