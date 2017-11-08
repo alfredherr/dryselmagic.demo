@@ -1,0 +1,8 @@
+[
+	{
+		"key":"userInfoHeader",
+		"elementID":".//*[@id='user-info']",
+		"inputEventName":null,
+		"outputEventName":"CompareText"
+	}
+]

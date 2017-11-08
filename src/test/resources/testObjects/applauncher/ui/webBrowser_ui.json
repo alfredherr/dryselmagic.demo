@@ -1,0 +1,14 @@
+[
+	{
+		"key":"address",
+		"elementID":"addressBar",
+		"inputEventName":"OpenURL",
+		"outputEventName":null
+	},
+	{
+		"key":"closeApp",
+		"elementID":"browser",
+		"inputEventName":"TearDownWebDriver",
+		"outputEventName":null
+	}
+]
